@@ -15,9 +15,9 @@ def get_requirements()->List[str]:
 
 setup(
     name='sensor',
-    version=0.0.1,
-    author=Abhishek,
-    author_mail=abhishekravikumar24@gmail.com,
+    version="0.0.2",
+    author="Abhishek",
+    author_mail="abhishekravikumar24@gmail.com",
     packages=find_packages(),
     install_requires=get_requirements()
 )
